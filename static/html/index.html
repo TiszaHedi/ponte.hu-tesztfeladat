@@ -1,13 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/bundle.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart City</title>
+  <link rel="stylesheet" href="css/bundle.css">
 </head>
+
 <body>
-    <h1>Juhuhuhu</h1>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="assets/logo.svg" alt="smart city logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-toggle="dropdown" aria-expanded="false">
+              Services
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Cms</a>
+              <a class="dropdown-item" href="#">Portal</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Works</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Jobs</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header>
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container carousel-caption">
+            <h5>Smart city</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. <a
+                href="#">Read more</a></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container carousel-caption">
+            <h5>Smart city 2</h5>
+            <p>Quisque quis urna elit. Aliquam eget sagittis dolor, vel pulvinar lacus. Sed eget neque eleifend, sodales
+              libero sit amet. <a href="#">Read more</a></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container carousel-caption">
+            <h5>Smart city 3</h5>
+            <p>Tellus felis eu elit praesent faucibus est ac dui varius, ut maximus nibh congue. <a href="#">Read
+                more</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="container">
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <h2>Introduction</h2>
+          <img class="float-right" src="assets/image 2.svg" alt="introduction image">
+          <p class="text-justify">WCAG 2.0 success criteria are written as testable statements that are not
+            technology-specific. Guidance
+            about satisfying the success criteria in specific technologies, as well as general information about
+            interpreting the success criteria, is provided in separate documents. See Web Content Accessibility
+            Guidelines (WCAG) Overview for an introduction and links to WCAG technical and educational material. WCAG
+            2.0 succeeds Web Content Accessibility Guidelines 1.0 [WCAG10], which was published as a W3C Recommendation
+            May 1999. Although it is possible to conform either to WCAG 1.0 or to WCAG 2.0 (or both)</p>
+          <a href="#">Tovább</a>
+        </div>
+        <div class="guidance col-12 col-md-6">
+          <h2>WCAG 2.0 Layers of Guidance</h2>
+          <p>WCAG 2.0 success criteria are written as testable statements that are not technology-specific. Guidance
+            about satisfying the success criteria in specific technologies, as well as general information about
+            interpreting the success criteria, is provided in separate documents. See Web Content Accessibility
+            Guidelines (WCAG)</p>
+          <ul class="guidance__list">
+            <li><strong class="guidance__list--bold-text">Principles</strong> - At the top are four principles that
+              provide the foundation for Web accessibility</li>
+            <li>Guidelines - Under the principles are guidelines.</li>
+            <li>Sufficient and Advisory Techniques - For each of the guidelines and success criteria in the WCAG 2.0
+              document itself</li>
+          </ul>
+          <p>WCAG 2.0 succeeds Web Content Accessibility Guidelines 1.0 [WCAG10], which was published as a W3C
+            Recommendation May 1999. Although it is possible to conform either to WCAG 1.0 or to WCAG 2.0 (or both)</p>
+          <a href="#">Tovább</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="partners container">
+      <div class="partners__box">
+        <a href="" target="_blank">
+          <img src="assets/partner-1.svg" alt="CSS3 logo">
+        </a>
+      </div>
+      <div class="partners__box">
+        <a href="" target="_blank">
+          <img src="assets/partner-2.svg" alt="HTML5 logo">
+        </a>
+      </div>
+      <div class="partners__box">
+        <a href="" target="_blank">
+          <img src="assets/partner-3.svg" alt="JAVA logo">
+        </a>
+      </div>
+    </section>
+
+    <section class="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-5">
+            <h3>Mobile App Design & Development Company</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat.</p>
+            <div class="contact__icons">
+              <a href="" target="_blank" class="contact__icons--link">
+                <img src="assets/facebook-icon.svg" alt="Smart City facebook page">
+              </a>
+              <a href="" target="_blank" class="contact__icons--link">
+                <img src="assets/linkedin-icon.svg" alt="Smart City linkedin page">
+              </a>
+              <a href="" target="_blank" class="contact__icons--link">
+                <img src="assets/twitter-icon.svg" alt="Smart City twitter page">
+              </a>
+            </div>
+          </div>
+          <div class="col-12 offset-md-1 col-md-5">
+            <h3>Contact form</h3>
+            <form action="#" class="contact-form">
+              <label for="name" class="contact-form__label">Name</label>
+              <input type="text" name="name" id="name" class="contact-form__input-field">
+              <label for="email" class="contact-form__label">E-mail</label>
+              <input type="email" name="email" id="email" class="contact-form__input-field">
+              <label for="message">Message</label>
+              <textarea name="message" id="message" class="contact-form__input-field contact-form__textarea"></textarea>
+              <button type="submit" class="contact-form__submit-btn">
+                Send
+                <img src="assets/plane.svg" alt="submit button plane icon">
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <small>&#169;2013, All rights reserved. Ponte.hu, H-1134 Budapest, Váci út 19. - Panoráma Ház 3.em., Tel.: (+36 1)
+        373 0733, E-mail: info@ponte.hu </small>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+    integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
