@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
 body {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
@@ -7,19 +7,26 @@ body {
 
 h1 {
   font-size: 3rem;
+  font-weight: normal;
 }
 
 h2 {
   font-size: 2.125rem;
+  font-weight: 300;
+  margin-bottom: 19px;
 }
 
 h3 {
   font-size: 1.5rem;
 }
 
+h1, h2, h3 {
+  text-transform: uppercase;
+}
+
 @include media-breakpoint-up(md) {
   h1 {
-    font-size: 40px;
+    font-size: 3rem;
   }
 }
 

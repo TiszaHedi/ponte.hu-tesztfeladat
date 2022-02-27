@@ -1,0 +1,9 @@
+header {
+    position: relative;
+    background: url('../assets/header-image.svg') 50%;
+    background-size: cover;
+    height: 580px;
+    @include media-breakpoint-up(md) {
+        background-position: center;
+    }
+}

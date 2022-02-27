@@ -6,7 +6,7 @@
   right: 0;
   background-color: rgba(0, 0, 0, 0.5);
   min-height: 100px;
-  z-index: 3;
+  z-index: 3000;
 
   &-container {
     @include media-breakpoint-down(md) {
