@@ -4,7 +4,7 @@ const minifyCss = require('gulp-clean-css');
 const concat = require('gulp-concat');
 
 const bundleSass = () => {
-    return src('./static/scss/**/*.scss')
+    return src('./static/scss/global.scss')
     .pipe(compileSass())
     .pipe(minifyCss())
     .pipe(concat('bundle.css'))

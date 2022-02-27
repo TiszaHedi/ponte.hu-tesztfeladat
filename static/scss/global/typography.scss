@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.125rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+@include media-breakpoint-up(md) {
+  h1 {
+    font-size: 40px;
+  }
+}
+
