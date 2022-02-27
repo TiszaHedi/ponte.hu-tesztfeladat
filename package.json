@@ -1,0 +1,31 @@
+{
+  "name": "ponte.hu-tesztfeladat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp bundleSass && gulp copyStaticFiles",
+    "watch": "gulp devWatch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TiszaHedi/ponte.hu-tesztfeladat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TiszaHedi/ponte.hu-tesztfeladat/issues"
+  },
+  "homepage": "https://github.com/TiszaHedi/ponte.hu-tesztfeladat#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.49.9"
+  }
+}
