@@ -24,7 +24,8 @@
     transition: bottom 0.2s linear;
   }
 
-  &__input-field:focus + .contact-form__label {
+  &__input-field:focus + .contact-form__label,
+  &__input-field.filled + .contact-form__label {
     bottom: 73px;
     transition: bottom 0.2s linear;
   }
@@ -39,8 +40,14 @@
     transition: bottom 0.2s linear;
   }
 
-  &__textarea:focus + .contact-form__label {
+  &__textarea:focus + .contact-form__label,
+  &__textarea.filled + .contact-form__label  {
     bottom: 169px;
     transition: bottom 0.2s linear;
+  }
+
+  &__character-counter {
+    margin: -16px 0 0 18px;
+    font-size: 12px;
   }
 }
