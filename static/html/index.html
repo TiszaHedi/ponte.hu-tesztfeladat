@@ -83,7 +83,7 @@
       <div class="row">
         <div class="introduction col-12 col-md-6">
           <h2>Introduction</h2>
-          <img class="float-right" src="assets/image 2.svg" alt="introduction image">
+          <img class="introduction--image float-right" src="assets/image 2.svg" alt="introduction image">
           <p class="text-justify">WCAG 2.0 success criteria are written as testable statements that are not
             technology-specific. Guidance
             about satisfying the success criteria in specific technologies, as well as general information about
@@ -91,7 +91,9 @@
             Guidelines (WCAG) Overview for an introduction and links to WCAG technical and educational material. WCAG
             2.0 succeeds Web Content Accessibility Guidelines 1.0 [WCAG10], which was published as a W3C Recommendation
             May 1999. Although it is possible to conform either to WCAG 1.0 or to WCAG 2.0 (or both)</p>
-          <a href="#">Tovább</a>
+          <p class="text-right">
+            <a href="#" class="read-more">Tovább</a>
+          </p>
         </div>
         <div class="guidance col-12 col-md-6">
           <h2>WCAG 2.0 Layers of Guidance</h2>
@@ -102,33 +104,37 @@
           <ul class="guidance__list">
             <li><strong class="guidance__list--bold-text">Principles</strong> - At the top are four principles that
               provide the foundation for Web accessibility</li>
-            <li>Guidelines - Under the principles are guidelines.</li>
-            <li>Sufficient and Advisory Techniques - For each of the guidelines and success criteria in the WCAG 2.0
+            <li><strong class="guidance__list--bold-text">Guidelines</strong> - Under the principles are guidelines.</li>
+            <li><strong class="guidance__list--bold-text">Sufficient and Advisory Techniques</strong> - For each of the guidelines and success criteria in the WCAG 2.0
               document itself</li>
           </ul>
           <p>WCAG 2.0 succeeds Web Content Accessibility Guidelines 1.0 [WCAG10], which was published as a W3C
             Recommendation May 1999. Although it is possible to conform either to WCAG 1.0 or to WCAG 2.0 (or both)</p>
-          <a href="#">Tovább</a>
+          <p class="text-right">
+            <a href="#" class="read-more">Tovább</a>
+          </p>
         </div>
       </div>
     </section>
 
     <section class="partners container">
       <h2>Our partners</h2>
-      <div class="partners__box">
-        <a href="" target="_blank">
-          <img src="assets/partner-1.svg" alt="CSS3 logo">
-        </a>
-      </div>
-      <div class="partners__box">
-        <a href="" target="_blank">
-          <img src="assets/partner-2.svg" alt="HTML5 logo">
-        </a>
-      </div>
-      <div class="partners__box">
-        <a href="" target="_blank">
-          <img src="assets/partner-3.svg" alt="JAVA logo">
-        </a>
+      <div class="partners__list">
+        <div class="partners__list-item">
+          <a href="" target="_blank">
+            <img src="assets/partner-1.svg" alt="CSS3 logo">
+          </a>
+        </div>
+        <div class="partners__list-item">
+          <a href="" target="_blank">
+            <img src="assets/partner-2.svg" alt="HTML5 logo">
+          </a>
+        </div>
+        <div class="partners__list-item">
+          <a href="" target="_blank">
+            <img src="assets/partner-3.svg" alt="JAVA logo">
+          </a>
+        </div>
       </div>
     </section>
 
@@ -141,13 +147,13 @@
               dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
               ea commodo consequat.</p>
             <div class="contact__icons">
-              <a href="" target="_blank" class="contact__icons--link">
+              <a href="https://www.facebook.com/" target="_blank" class="contact__icons--link">
                 <img src="assets/facebook-icon.svg" alt="Smart City facebook page">
               </a>
-              <a href="" target="_blank" class="contact__icons--link">
+              <a href="https://www.linkedin.com" target="_blank" class="contact__icons--link">
                 <img src="assets/linkedin-icon.svg" alt="Smart City linkedin page">
               </a>
-              <a href="" target="_blank" class="contact__icons--link">
+              <a href="https://twitter.com/?lang=hu" target="_blank" class="contact__icons--link">
                 <img src="assets/twitter-icon.svg" alt="Smart City twitter page">
               </a>
             </div>
@@ -155,12 +161,12 @@
           <div class="col-12 offset-md-1 col-md-5">
             <h3>Contact form</h3>
             <form action="#" class="contact-form">
-              <label for="name" class="contact-form__label">Name</label>
               <input type="text" name="name" id="name" class="contact-form__input-field">
-              <label for="email" class="contact-form__label">E-mail</label>
+              <label for="name" class="contact-form__label">Name</label>
               <input type="email" name="email" id="email" class="contact-form__input-field">
-              <label for="message">Message</label>
+              <label for="email" class="contact-form__label">E-mail</label>
               <textarea name="message" id="message" class="contact-form__input-field contact-form__textarea"></textarea>
+              <label for="message" class="contact-form__label">Message</label>
               <button type="submit" class="contact-form__submit-btn">
                 Send
                 <img src="assets/plane.svg" alt="submit button plane icon">

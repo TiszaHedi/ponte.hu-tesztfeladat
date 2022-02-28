@@ -1,0 +1,7 @@
+.container {
+    padding: 0 30px;
+
+    @include media-breakpoint-up(md) {
+        padding: 0 15px;
+    }
+}

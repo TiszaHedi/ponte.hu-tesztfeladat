@@ -1,10 +1,17 @@
 @import "./node_modules/bootstrap/scss/bootstrap";
 
+@import "./global/containers.scss";
 @import "./global/functions.scss";
 @import "./global/mixins.scss";
 @import "./global/typography.scss";
 @import "./global/variables.scss";
 
+@import "./components/buttons.scss";
 @import "./components/carousel.scss";
+@import "./components/contact.scss";
+@import "./components/guidance.scss";
 @import "./components/header.scss";
+@import "./components/inputs.scss";
+@import "./components/introduction.scss";
 @import "./components/navigation.scss";
+@import "./components/partners.scss";

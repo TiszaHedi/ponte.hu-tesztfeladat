@@ -1,0 +1,19 @@
+.contact {
+    padding: 28px 0px;
+    background-color: color(gray, gray-background);
+    color: color(white, white-primary);
+
+    p {
+        text-align: justify;
+        margin-bottom: 32px;
+    }
+
+    &__icons {
+        margin-bottom: 75px;
+        &--link {
+            display: inline-block;
+            margin-right: 6px;
+            height: 100%;
+        }
+    }
+}

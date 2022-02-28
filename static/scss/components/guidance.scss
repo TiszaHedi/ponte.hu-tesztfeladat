@@ -1,0 +1,25 @@
+.guidance {
+  margin-top: 75px;
+  text-align: justify;
+
+  &__list {
+    padding-left: 30px;
+    margin-top: 16px;
+    list-style-type: none;
+
+    li {
+      position: relative;
+      &:not(:last-child) {
+        margin-bottom: 16px;
+      }
+
+      &::before {
+        position: absolute;
+        content: url('../assets/list-arrow.svg');
+        height: 9px;
+        width: 6px;
+        left: -21px;
+      }
+    }
+  }
+}
