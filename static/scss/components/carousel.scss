@@ -1,74 +1,73 @@
 .carousel {
+  height: 100%;
+
+  &-indicators {
+    margin: 0 0 90px 0;
+    justify-content: flex-start;
+    left: 30px;
+
+    li {
+      margin-right: 18px;
+      width: 12px;
+      height: 12px;
+      background-color: color(white, white-primary);
+      transform-origin: center center;
+      @include transition(all 0.1s linear);
+      opacity: 1;
+
+      &.active {
+        transform: scale(1.333333333);
+        background-color: color(blue, blue-primary);
+        @include transition(all 0.1s linear);
+      }
+    }
+  }
+
+  &-inner {
     height: 100%;
+  }
 
-    &-indicators {
-        margin: 0 0 90px 0;
-        justify-content: flex-start;
-        left: 30px;
+  &-item {
+    height: 100%;
+    display: inline-block !important;
+  }
 
-        li {
-            margin-right: 18px;
-            width: 12px;
-            height: 12px;
-            background-color: color(white, white-primary);
-            transform-origin: center center;
-            @include transition(all .1s linear);
-            opacity: 1;
+  &-caption {
+    bottom: 97px;
+    left: 0px;
+    right: 15px;
+    text-align: left;
 
-            &.active {
-                transform: scale(1.333333333);
-                background-color: color(blue, blue-primary);
-                @include transition(all .1s linear);
-
-            }
-        }
+    h5 {
+      margin-bottom: 9px;
+      font-size: 3rem;
+      text-transform: uppercase;
+      line-height: 56px;
     }
 
-    &-inner {
-        height: 100%;
+    p {
+      font-size: 1.5rem;
+      line-height: 33px;
+      a {
+        text-decoration: underline;
+        color: color(blue, blue-primary);
+      }
     }
-
-    &-item {
-        height: 100%;
-        display: inline-block !important;
-    }
-
-    &-caption {
-        bottom: 97px;
-        left: 0px;
-        right: 15px;
-        text-align: left;
-
-        h5 {
-            margin-bottom: 9px;
-            font-size: 3rem;
-            text-transform: uppercase;
-            line-height: 56px;
-        }
-
-        p {
-            font-size: 1.5rem;
-            line-height: 33px;
-            a {
-                text-decoration: underline;
-                color: color(blue, blue-primary);
-            }
-        }
-    }
+  }
 }
 
 @include media-breakpoint-up(md) {
-    .carousel {
-        &-indicators {
-            margin-bottom: 55px;
-            left: 15px;
-        }
-    
-        &-caption {
-            padding: 0;
-            left: 0;
-            bottom: 99px;
-            max-width: 545px;
-        }
+  .carousel {
+    &-indicators {
+      margin-bottom: 55px;
+      left: 15px;
     }
+
+    &-caption {
+      padding: 0;
+      left: 0;
+      bottom: 99px;
+      max-width: 545px;
+    }
+  }
 }

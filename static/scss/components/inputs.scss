@@ -1,46 +1,46 @@
 .contact-form {
-    margin-top: 32px;
+  margin-top: 32px;
 
-    &__input-field {
-        display: block;
-        padding: 16px 0 12px 18px;
-        margin-top: 2px;
-        width: 100%;
-        min-height: 50px;
-        background-color: color(gray, gray-input-bg);
-        border: 1px solid color(gray, gray-input-border);
-        color: color(white, white-primary);
-        outline: none;
+  &__input-field {
+    display: block;
+    padding: 16px 0 12px 18px;
+    margin-top: 2px;
+    width: 100%;
+    min-height: 50px;
+    background-color: color(gray, gray-input-bg);
+    border: 1px solid color(gray, gray-input-border);
+    color: color(white, white-primary);
+    outline: none;
 
-        &:focus {
-            border: 1px solid color(blue, blue-primary);
-        }
+    &:focus {
+      border: 1px solid color(blue, blue-primary);
     }
+  }
 
-    &__label {
-        position: relative;
-        bottom: 36px;
-        left: 18px;
-        transition: bottom .2s linear;
-    }
+  &__label {
+    position: relative;
+    bottom: 36px;
+    left: 18px;
+    transition: bottom 0.2s linear;
+  }
 
-    &__input-field:focus + .contact-form__label {
-        bottom: 73px;
-        transition: bottom .2s linear;
-    }
+  &__input-field:focus + .contact-form__label {
+    bottom: 73px;
+    transition: bottom 0.2s linear;
+  }
 
-    &__textarea {
-        resize: none;
-        min-height: 143px;
-    }
+  &__textarea {
+    resize: none;
+    min-height: 143px;
+  }
 
-    &__textarea + .contact-form__label {
-        bottom: 133px;
-        transition: bottom .2s linear;
-    }
+  &__textarea + .contact-form__label {
+    bottom: 133px;
+    transition: bottom 0.2s linear;
+  }
 
-    &__textarea:focus + .contact-form__label {
-        bottom: 169px;
-        transition: bottom .2s linear;
-    }
+  &__textarea:focus + .contact-form__label {
+    bottom: 169px;
+    transition: bottom 0.2s linear;
+  }
 }

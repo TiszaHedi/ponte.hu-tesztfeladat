@@ -1,16 +1,16 @@
 @mixin css3-prefix($property, $value) {
-    -webkit-#{$property}: #{$value};
-    -moz-#{$property}: #{$value};
-    -ms-#{$property}: #{$value};
-    -o-#{$property}: #{$value};
-    -ms-#{$property}: #{$value};
-    #{$property}: #{$value};    
+  -webkit-#{$property}: #{$value};
+  -moz-#{$property}: #{$value};
+  -ms-#{$property}: #{$value};
+  -o-#{$property}: #{$value};
+  -ms-#{$property}: #{$value};
+  #{$property}: #{$value};
 }
 
 @mixin border-radius($radius: 3px) {
-    @include css3-prefix('border-radius', $radius);
+  @include css3-prefix('border-radius', $radius);
 }
 
 @mixin transition($args) {
-    @include css3-prefix('transition', $args);
+  @include css3-prefix('transition', $args);
 }
