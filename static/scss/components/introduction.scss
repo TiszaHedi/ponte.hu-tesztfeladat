@@ -6,4 +6,13 @@
     width: 195px;
     height: 195px;
   }
+
+  @include media-breakpoint-up(md) {
+    margin-top: 72px;
+
+    &--image {
+      width: 257px;
+      height: 257px;
+    }
+  }
 }

@@ -1,7 +1,11 @@
 .contact {
-  padding: 28px 0px;
+  padding: 28px 0px 25px;
   background-color: color(gray, gray-background);
   color: color(white, white-primary);
+
+  h3:nth-of-type(1) {
+    margin-bottom: 32px;
+  }
 
   p {
     text-align: justify;
