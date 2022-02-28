@@ -20,7 +20,6 @@
         let elem = document.getElementById(inputs[i].id);
         inputs[i].addEventListener('keyup', function(e) {
             let value = e.target.value;
-            console.log(elem.className);
             elem.className = (value.length > 0) ? elem.className.replace(inputClass, '') + inputClass : elem.className.replace(inputClass, '');
         });
     };
